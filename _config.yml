@@ -2,3 +2,6 @@ theme: jekyll-theme-cayman
 title: Midgard ADA Staking Pool
 description: [A short description of your site's purpose]
 google_analytics: G-KR0CRZZ743
+
+# social
+image: /assets/img/cardano-eur.jpg
