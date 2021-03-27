@@ -5,16 +5,16 @@
             "twitter_handle": "adamidgard",
             "telegram_handle": "midgardpool"        },
         "company": {
-            "name": "Kjartan Sverrsisson",
+            "name": "Kjartan Sverrsisson"
         },
         "about": {
             "me": "CEO and software developer, 20 years experience in IT and server operations",
-            "server": "Dual core VM's, 16Gb memory, multiple datacenter regions",
+            "server": "Dual core VM's, 16Gb memory, multiple datacenter regions"
         },
         "rss": ""
     },
     "my-pool-ids": {
-        "0": "edbf17f6796a0434a8269f000cf2cba87452abf39c9967c8a318f456",
+        "0": "edbf17f6796a0434a8269f000cf2cba87452abf39c9967c8a318f456"
     },
     "telegram-admin-handle": {
         "0": "kjartans"
