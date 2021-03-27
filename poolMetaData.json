@@ -2,5 +2,6 @@
 "name": "Midgard",
 "description": "Midgard - 0% variable fee",
 "ticker": "MGARD",
-"homepage": "https://midgard.digital"
+"homepage": "https://midgard.digital",
+"extended": "https://midgard.digital/extended.json"
 }
