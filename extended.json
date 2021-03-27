@@ -22,12 +22,12 @@
     "adapools_ext": {
         "prometheus": {
             "0": {
-                "name": "relay 1 eu",
+                "name": "Relay 1 - EU",
                 "type": "relay",
                 "key": "0265cdaa2c0e0c127c5a52e400917e28"
             },
             "1": {
-                "name": "block producer home",
+                "name": "Producer",
                 "type": "bp",
                 "key": "0265cdaa2c0e0c127c5a52e400917e28"
             }
