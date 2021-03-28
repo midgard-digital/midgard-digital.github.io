@@ -1,6 +1,6 @@
 theme: jekyll-theme-cayman
 title: Midgard ADA Staking Pool
-tagline: Your finiancial freedom is our goal 
+tagline: HODLing ADA, but not staking is leaving money on the table.
 description: HODLing ADA, but not staking is leaving money on the table.
 google_analytics: G-KR0CRZZ743
 author: Kjartan Sverrisson
@@ -15,7 +15,7 @@ twitter:
   card: summary
 
 social:
-  name: Kjartan Sverrisson
+  name: kjartans
   links:
     - https://twitter.com/kjartans
     - https://twitter.com/ADAMidgard
