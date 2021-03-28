@@ -1,7 +1,13 @@
 theme: jekyll-theme-cayman
 title: Midgard ADA Staking Pool
-description: [A short description of your site's purpose]
+description: Your finiancial freedom is our goal 
 google_analytics: G-KR0CRZZ743
+url: https://midgard.digital/
 
 # social
 image: /assets/img/cardano-eur.jpg
+
+twitter:
+
+  username: ADAMidgard
+  card: HODLing ADA, but not staking is leaving money on the table.
