@@ -31,26 +31,34 @@
     <header class="page-header" role="banner">
       <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
       <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
-      <p>Pool Ticker: MGARD<br/>
-        Pool ID: edbf17f6796a0434a8269f000cf2cba87452abf39c9967c8a318f456</p>
-      {% if site.github.is_project_page %}
-        <a href="{{ site.github.repository_url }}" class="btn">View on GitHub</a>
-      {% endif %}
+      <a href="/" class="btn">Home</a>
+      <a href="/whatis" class="btn">What is a staking pool</a>
+      <a href="/wallets" class="btn">Wallets</a>
+      <a href="/howto" class="btn">How to</a>
+      <a href="/cost" class="btn">Cost</a>
+      <a href="/nodes" class="btn">Nodes</a>
+      <a href="/whoami" class="btn">Who am I</a>
     </header>
 
     <main id="content" class="main-content" role="main">
       {{ content }}
 
       <footer class="site-footer">
-          <a href="https://t.me/midgardpool">Find us on Telegram</a> | 
+        <p>
+          <a href="https://t.me/midgardpool">Telegram</a> | 
           <a href="https://twitter.com/adamidgard">Twitter</a> | 
           <a href="https://pooltool.io/pool/edbf17f6796a0434a8269f000cf2cba87452abf39c9967c8a318f456/epochs">Pooltool.io</a> | 
           <a href="https://adapools.org/pool/edbf17f6796a0434a8269f000cf2cba87452abf39c9967c8a318f456">Adapools.org</a>
         {% if site.github.is_project_page %}
           <span class="site-footer-owner"><a href="{{ site.github.repository_url }}">{{ site.github.repository_name }}</a> is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a>.</span>
         {% endif %}
-
-        <br/><br/>
+      </p>
+        <small>
+          <p>
+            Pool Ticker: MGARD<br/>
+            Pool ID: edbf17f6796a0434a8269f000cf2cba87452abf39c9967c8a318f456
+         </p>
+        </small>
         <small>Favico Photo by <a href="https://unsplash.com/@martzzl?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Marcel Strauß</a> on <a href="/s/photos/crypto-currency?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></small>
       </footer>
     </main>

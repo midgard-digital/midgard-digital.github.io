@@ -5,7 +5,9 @@ description: HODLing ADA, but not staking is leaving money on the table.
 google_analytics: G-KR0CRZZ743
 author: Kjartan Sverrisson
 url: https://midgard.digital/
-logo: /assets/img/cardano-eur.jpg
+logo: /assets/img/cardano-eur.
+page_excerpts: true
+is_home: true
 
 # social
 image: /assets/img/cardano-eur.jpg
