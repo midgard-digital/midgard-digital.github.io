@@ -5,6 +5,7 @@ description: What does that mean?
 ---
 
 # Single Pool Operators
+<small>{{ page.date | date_to_string: "ordinal", "EU" }}</small>
 
 Single pool operators are the largest group of stake pool operators in the Cardano community. Together we operate 70% of all stake pools. This is impressive in comparison to all metrics, except one. Only 22% of staked ADA is deligated to a stake pool in this group.
 
