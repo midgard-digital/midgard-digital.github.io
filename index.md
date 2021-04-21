@@ -5,7 +5,15 @@ description: Cardano ADA stake pool
 is_home: true
 ---
 
-[Single Pool Operators]({% post_url 2021-04-20-single-pool-operators %})
+# Blog
+<section>
+  {% for post in site.posts %}
+    <div>
+      <small>{{ post.date | date_to_string: "ordinal", "EU" }}</small><br/>
+	  <a href="{{ post.url }}">{{ post.title }}</a><br/>
+    </div>
+  {% endfor %}
+</section>
 
 # Statistics
 
