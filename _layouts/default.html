@@ -21,7 +21,7 @@
     <meta name="theme-color" content="#157878">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
-    <meta property="og:image" content="https://midgard.digital/assets/img/midgard.jpeg" />
+    <meta property="og:image" content="https://midgard.digital/assets/img/midgard-coover.jpeg" />
 
 
   </head>
@@ -29,8 +29,10 @@
     <a class="hide" id="skip-to-content" href="#content">Skip to the content.</a>
 
     <header class="page-header" role="banner">
-      <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
-      <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
+      <h1 class="project-name hidden">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
+      <h2 class="project-tagline hidden">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
+    </header>
+    <nav>
       <a href="/" class="btn">Home</a>
       <a href="/whatis" class="btn">What is a stake pool</a>
       <a href="/wallets" class="btn">Wallets</a>
@@ -38,8 +40,7 @@
       <a href="/cost" class="btn">Cost</a>
       <a href="/nodes" class="btn">Nodes</a>
       <a href="/whoami" class="btn">Who am I</a>
-    </header>
-
+    </nav>
     <main id="content" class="main-content" role="main">
       {{ content }}
 

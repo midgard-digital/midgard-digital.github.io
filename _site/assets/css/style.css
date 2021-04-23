@@ -275,7 +275,7 @@ a:hover { text-decoration: underline; }
 
 @media screen and (max-width: 42em) { .btn { display: block; width: 100%; padding: 0.75rem; font-size: 0.9rem; } .btn + .btn { margin-top: 1rem; margin-left: 0; } }
 
-.page-header { color: #fff; text-align: center; background-color: #159957; background-image: linear-gradient(120deg, #155799, #159957); }
+.page-header { color: #fff; text-align: center; background-color: #B46E43; background-image: linear-gradient(120deg, #155799, #B46E43); }
 
 @media screen and (min-width: 64em) { .page-header { padding: 5rem 6rem; } }
 
@@ -313,7 +313,7 @@ a:hover { text-decoration: underline; }
 
 .main-content img { max-width: 100%; }
 
-.main-content h1, .main-content h2, .main-content h3, .main-content h4, .main-content h5, .main-content h6 { margin-top: 2rem; margin-bottom: 1rem; font-weight: normal; color: #159957; }
+.main-content h1, .main-content h2, .main-content h3, .main-content h4, .main-content h5, .main-content h6 { margin-top: 2rem; margin-bottom: 1rem; font-weight: normal; color: #B46E43; }
 
 .main-content p { margin-bottom: 1em; }
 
@@ -369,6 +369,24 @@ a:hover { text-decoration: underline; }
 
 .hide { display: none; }
 
-.page-header { color: #fff; text-align: center; background-color: #159957; background-image: linear-gradient(120deg, #155799, #159957); background-image: url("/assets/img/midgard.jpeg"); background-size: cover; background-position: 50% 35%; }
+.hidden { display: none; }
+
+.page-header { color: #fff; text-align: center; background-color: #159957; background-image: linear-gradient(120deg, #155799, #159957); background-image: url("/assets/img/midgard-twitter-cover.jpg"); background-size: cover; background-position: 50% 35%; height: 400px; }
+
+nav { text-align: center; }
+
+nav .btn { display: inline-block; margin-bottom: 1rem; color: rgba(180, 110, 67, 0.7); background-color: rgba(180, 110, 67, 0.08); border-color: rgba(180, 110, 67, 0.2); border-style: solid; border-width: 1px; border-radius: 0.3rem; transition: color 0.2s, background-color 0.2s, border-color 0.2s; }
+
+nav .btn:hover { color: rgba(180, 110, 67, 0.8); text-decoration: none; background-color: rgba(180, 110, 67, 0.2); border-color: rgba(180, 110, 67, 0.3); }
+
+nav .btn + .btn { margin-left: 1rem; }
+
+@media screen and (min-width: 64em) { nav .btn { padding: 0.75rem 1rem; } }
+
+@media screen and (min-width: 42em) and (max-width: 64em) { nav .btn { padding: 0.6rem 0.9rem; font-size: 0.9rem; } }
+
+@media screen and (max-width: 42em) { nav .btn { display: block; width: 100%; padding: 0.75rem; font-size: 0.9rem; } nav .btn + .btn { margin-top: 1rem; margin-left: 0; } }
+
+h1, h2, h3, h4, h5, h6 { color: #B46E43; }
 
 /*# sourceMappingURL=style.css.map */
