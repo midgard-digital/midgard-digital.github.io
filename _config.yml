@@ -5,12 +5,12 @@ description: HODLing ADA, but not staking it is leaving money on the table.
 google_analytics: G-KR0CRZZ743
 author: Kjartan Sverrisson
 url: https://midgard.digital/
-logo: /assets/img/midgard-logo-social.jpg
+logo: /assets/img/midgard-logo-social-tiny.jpg
 page_excerpts: true
 is_home: true
 
 # social
-image: /assets/img/midgard-logo-social.jpg
+image: /assets/img/midgard-logo-social-tiny.jpg
 
 twitter:
   username: ADAMidgard
