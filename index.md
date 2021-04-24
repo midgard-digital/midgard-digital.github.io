@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Midgard
-description: Cardano ADA stake pool
+description: The Viking Pool
 is_home: true
 ---
 
