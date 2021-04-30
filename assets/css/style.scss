@@ -78,3 +78,11 @@ h5,
 h6 {
   color: $section-headings-color;
 }
+
+.list {
+  padding: 16px 0;
+  border-bottom: solid 1px rgba(180,110,67, 0.7);
+  a {
+    color:  rgba(180,110,67, 1);
+  }
+}

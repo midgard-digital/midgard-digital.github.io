@@ -5,10 +5,10 @@ description: The Viking Pool
 is_home: true
 ---
 
-# Blog
+# Crypto blog
 <section>
   {% for post in site.posts %}
-    <div>
+    <div class="list">
       <small>{{ post.date | date_to_string: "ordinal", "EU" }}</small><br/>
   	  <a href="{{ post.url }}">{{ post.title }}</a><br/>
     </div>

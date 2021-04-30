@@ -389,4 +389,8 @@ nav .btn + .btn { margin-left: 1rem; }
 
 h1, h2, h3, h4, h5, h6 { color: #B46E43; }
 
+.list { padding: 16px 0; border-bottom: solid 1px rgba(180, 110, 67, 0.7); }
+
+.list a { color: #b46e43; }
+
 /*# sourceMappingURL=style.css.map */
