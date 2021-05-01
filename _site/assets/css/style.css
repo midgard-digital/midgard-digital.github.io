@@ -393,6 +393,6 @@ h1, h2, h3, h4, h5, h6 { color: #B46E43; }
 
 .list a { color: #b46e43; }
 
-@media screen and (max-width: 42em) { .hamburger { position: absolute; top: 20px; right: 20px; z-index: 10; } .hamburger span { border: solid 1 px rgba(180, 110, 67, 0.7); height: 4px; display: block; width: 32px; background-color: rgba(180, 110, 67, 0.7); margin: 5px; } .buttons { background-color: #fff; display: none; } .buttons.visible { display: block; position: absolute; top: 70px; width: 100%; z-index: 11150 !important; } }
+@media screen and (max-width: 42em) { .hamburger { position: absolute; top: 20px; right: 20px; z-index: 10; } .hamburger span { border: solid 1 px #b46e43; height: 4px; display: block; width: 32px; background-color: #b46e43; margin: 5px; } .buttons { background-color: #fff; display: none; opacity: 0; } .buttons.visible { display: block; position: absolute; top: 70px; width: 100%; z-index: 11150 !important; opacity: 1; transition: opacity 2s linear; } }
 
 /*# sourceMappingURL=style.css.map */

@@ -95,24 +95,28 @@ h6 {
     top: 20px;
     right: 20px;
     z-index: 10;
+    
     span {
-      border: solid 1 px rgba(180,110,67, 0.7);
+      border: solid 1 px rgba(180,110,67, 1);
       height: 4px;
       display: block;
       width: 32px;
-      background-color: rgba(180,110,67, 0.7);
+      background-color: rgba(180,110,67, 1);
       margin: 5px;
     }
   }
   .buttons {
     background-color: #fff;
+    display: none;
+    opacity: 0;
     &.visible {
       display: block;
       position: absolute;
       top: 70px;
       width: 100%;
       z-index: 11150 !important;
+      opacity: 1;
+      transition: opacity 2s linear;
     }
-    display: none;
   }
 }

@@ -3,12 +3,12 @@ layout: default
 title:  Not your keys? Not your coin!
 description: The importance of owning the private keys to your wallet
 ---
-## Own your private keys!
+# Own your private keys!
 <small>{{ page.date | date_to_string: "ordinal", "EU" }}</small>
 
 This can't be repeated often enough. Do you want to know why? Here's a short story for a Friday night in.
 
-# We have all heard this phrase before
+## We have all heard this phrase before
 
 Last week, the news revealed that the owner of a Turkish exchange had run off with hundreds of millions of dollars worth of cryptocurrency. Depending on which news outlet you follow, the details of the situation can be a bit conflicting. 
 
