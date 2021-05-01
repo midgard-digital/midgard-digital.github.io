@@ -32,15 +32,26 @@
       <h1 class="project-name hidden">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
       <h2 class="project-tagline hidden">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
     </header>
+
     <nav>
-      <a href="/" class="btn">Home</a>
-      <a href="/whatis" class="btn">What is a stake pool</a>
-      <a href="/wallets" class="btn">Wallets</a>
-      <a href="/howto" class="btn">How to</a>
-      <a href="/cost" class="btn">Cost</a>
-      <a href="/nodes" class="btn">Nodes</a>
-      <a href="/whoami" class="btn">Who am I</a>
+      <div class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+
+      <div class="buttons" id="buttons">
+        <a href="/" class="btn">Home</a>
+        <a href="/whatis" class="btn">What is a stake pool</a>
+        <a href="/wallets" class="btn">Wallets</a>
+        <a href="/howto" class="btn">How to</a>
+        <a href="/cost" class="btn">Cost</a>
+        <a href="/nodes" class="btn">Nodes</a>
+        <a href="/whoami" class="btn">Who am I</a>
+      </div>
+      
     </nav>
+
     <main id="content" class="main-content" role="main">
       {{ content }}
 
@@ -63,6 +74,7 @@
         <small>Favico Photo by <a href="https://unsplash.com/@martzzl?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Marcel Strauß</a> on <a href="/s/photos/crypto-currency?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></small>
       </footer>
     </main>
+    <script src="{{ '/assets/js/main.js?v=' | append: site.github.build_revision | relative_url }}"></script>
   </body>
 </html>
 
