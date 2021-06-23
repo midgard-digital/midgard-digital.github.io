@@ -14,4 +14,4 @@ The cloud also enables us to maintain very low network latency so that our relay
 
 ## Relays
 - cnode-r01.midgard.digital (Amsterdam)
-- cnode-r03.midgard.digital (Iceland)
+- cnode-r02.midgard.digital (Iceland)
