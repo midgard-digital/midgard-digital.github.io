@@ -1,6 +1,6 @@
 {
     "info": {
-        "location": "Multiple zones on Digital Ocean - Operator in Iceland",
+        "location": "Iceland - Backup locations in multiple regions",
         "social": {
             "twitter_handle": "adamidgard",
             "telegram_handle": "midgardpool"        },
@@ -9,7 +9,7 @@
         },
         "about": {
             "me": "CEO and software developer, 20 years experience in IT and server operations",
-            "server": "Dual core VM's, 8Gb memory, multiple datacenter regions"
+            "server": "Dual core VM's, 16Gb memory, multiple datacenter regions"
         },
         "rss": ""
     },

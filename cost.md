@@ -12,7 +12,7 @@ One is a fixed fee of 340A every epoch, paid by the Cardano reserve to the pool 
 
 The other is a margin of the delegator's rewards. The margin is a small percentage and is credited automatically to the pool when the Cardano protocol pays the rewards.
 
-However, until epoch 328, our margin is 0%, meaning that all delegators will keep 100% of their rewards, and the pool only gets the 340A.
+Our margin is 1.9%. If changes are made in the future we will give our deligators ample notice via Twitter and Telegram.
 
 # Why charge for delegation?
 
