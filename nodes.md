@@ -13,5 +13,5 @@ We do this by always keeping backups for both relay nodes and core nodes on stan
 The cloud also enables us to maintain very low network latency so that our relays can reach neighboring relays well within the 50ms benchmark set by the Cardano network.
 
 ## Relays
-- cnode-r01.midgard.digital (Amsterdam)
-- cnode-r02.midgard.digital (Iceland)
+- cnode-r01.midgard.digital (Reykjavik, Iceland)
+- cnode-r02.midgard.digital (Hafnarfjordur, Iceland)
